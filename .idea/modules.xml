@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/001-springboot-start/001-springboot-start.iml" filepath="$PROJECT_DIR$/001-springboot-start/001-springboot-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/002-springboot-config/002-springboot-config.iml" filepath="$PROJECT_DIR$/002-springboot-config/002-springboot-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-springboot-jpa/003-springboot-jpa.iml" filepath="$PROJECT_DIR$/003-springboot-jpa/003-springboot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/javaAccumulate.iml" filepath="$PROJECT_DIR$/.idea/javaAccumulate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/003-springboot-jpa/springboot-jpa/springboot-jpa.iml" />
+    </modules>
+  </component>
+</project>
