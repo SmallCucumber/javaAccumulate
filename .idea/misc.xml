@@ -6,6 +6,9 @@
         <option value="$PROJECT_DIR$/001-springboot-start/pom.xml" />
         <option value="$PROJECT_DIR$/002-springboot-config/pom.xml" />
         <option value="$PROJECT_DIR$/003-springboot-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/004-springboot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/005-springboot-fastDFS/pom.xml" />
+        <option value="$PROJECT_DIR$/006-springboot-mail/pom.xml" />
       </list>
     </option>
   </component>

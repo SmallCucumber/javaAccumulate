@@ -4,6 +4,12 @@
     <file url="file://$PROJECT_DIR$/001-springboot-start/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/001-springboot-start/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/002-springboot-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa-crud/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-springboot-jpa/springboot-mult-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/004-springboot-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-springboot-fastDFS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/006-springboot-mail/src/main/java" charset="UTF-8" />
   </component>
 </project>

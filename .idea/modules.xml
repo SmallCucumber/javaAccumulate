@@ -5,8 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/001-springboot-start/001-springboot-start.iml" filepath="$PROJECT_DIR$/001-springboot-start/001-springboot-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/002-springboot-config/002-springboot-config.iml" filepath="$PROJECT_DIR$/002-springboot-config/002-springboot-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/003-springboot-jpa/003-springboot-jpa.iml" filepath="$PROJECT_DIR$/003-springboot-jpa/003-springboot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/004-springboot-thymeleaf/004-springboot-thymeleaf.iml" filepath="$PROJECT_DIR$/004-springboot-thymeleaf/004-springboot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/005-springboot-fastDFS/005-springboot-fastDFS.iml" filepath="$PROJECT_DIR$/005-springboot-fastDFS/005-springboot-fastDFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/006-springboot-mail/006-springboot-mail.iml" filepath="$PROJECT_DIR$/006-springboot-mail/006-springboot-mail.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaAccumulate.iml" filepath="$PROJECT_DIR$/.idea/javaAccumulate.iml" />
       <module fileurl="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/003-springboot-jpa/springboot-jpa/springboot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa-crud/springboot-jpa-crud.iml" filepath="$PROJECT_DIR$/003-springboot-jpa/springboot-jpa-crud/springboot-jpa-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-springboot-jpa/springboot-mult-jpa/springboot-mult-jpa.iml" filepath="$PROJECT_DIR$/003-springboot-jpa/springboot-mult-jpa/springboot-mult-jpa.iml" />
     </modules>
   </component>
 </project>

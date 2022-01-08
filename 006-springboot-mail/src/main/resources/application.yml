@@ -1,0 +1,19 @@
+server:
+  port: 8888
+
+
+spring:
+  mail:
+    host: smtp.163.com
+    username: SmallCucumber@163.com
+    password: SPRING502512367
+    default-encoding: UTF-8
+    fromMail:
+      addr: SmallCucumber@163.com
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml

@@ -7,16 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="001-springboot-start" />
+        <module name="springboot-mult-jpa" />
         <module name="002-springboot-config" />
         <module name="springboot-jpa" />
+        <module name="005-springboot-fastDFS" />
+        <module name="006-springboot-mail" />
+        <module name="004-springboot-thymeleaf" />
+        <module name="001-springboot-start" />
+        <module name="springboot-jpa-crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="001-springboot-start" target="11" />
       <module name="002-springboot-config" target="11" />
       <module name="003-springboot-jpa" target="11" />
+      <module name="004-springboot-thymeleaf" target="11" />
+      <module name="005-springboot-fastDFS" target="11" />
+      <module name="006-springboot-mail" target="11" />
       <module name="springboot-jpa" target="11" />
+      <module name="springboot-jpa-crud" target="11" />
+      <module name="springboot-mult-jpa" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,7 +34,12 @@
       <module name="001-springboot-start" options="-parameters" />
       <module name="002-springboot-config" options="-parameters" />
       <module name="003-springboot-jpa" options="-parameters" />
+      <module name="004-springboot-thymeleaf" options="-parameters" />
+      <module name="005-springboot-fastDFS" options="-parameters" />
+      <module name="006-springboot-mail" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-jpa-crud" options="-parameters" />
+      <module name="springboot-mult-jpa" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+
+#search multipart
+spring:
+  servlet:
+    http:
+      multipart:
+        max-file-size: 10MB
+        max-request-size: 10MB
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml
