@@ -1,0 +1,40 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: eureka-server-9000
+  security:
+    user:
+      name: test
+      password: 123456
+
+eureka:
+  client:
+    # 让自己不需要注册在上面禁止客户端注册，表明自己是一个eureka server
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://eureka-server-9000:9000/eureka
+      #defaultZone:  http://test:123456@eureka-server-9001:9001/eureka
+    #http://eureka-server-9001:9001/eureka/,http://eureka-server-9002:9002/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    hostname: eureka-server-9000
+    ip-address: 127.0.0.1
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 9
+  server:
+    peer-node-read-timeout-ms: 1000
+    enable-self-preservation: false  #默认为开启，false关闭保护机制，这样可以确保注册中心中不可用的实例被及时的剔除（不推荐）,生产环境中一定要设为ture
+
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml

@@ -1,0 +1,31 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    # 手动提交消息
+    listener:
+      simple:
+        #acknowledge-mode: AUTO
+        acknowledge-mode: manual
+        #这里一定要配置为false，不然无法消费的数据不会进入死信队列的
+        default-requeue-rejected: false
+      direct:
+        acknowledge-mode: manual
+        #acknowledge-mode: AUTO
+
+
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml

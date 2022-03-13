@@ -1,0 +1,50 @@
+server:
+  port: 9040
+
+spring:
+  application:
+    name: open-feign-name
+
+eureka:
+  client:
+    # 让自己不需要注册在上面禁止客户端注册，表明自己是一个eureka server
+    register-with-eureka: true #是否将自己注册到eureka服务端上去
+    fetch-registry: true #是否获取eureka服务端上注册的服务列表
+    serviceUrl:
+      defaultZone: http://test:123456@eureka-server-9000:9000/eureka
+      #defaultZone:  http://test:123456@eureka-server-9001:9001/eureka,http://test:123456@eureka-server-9002:9002/eureka
+      #http://eureka-server-9001:9001/eureka/,http://eureka-server-9002:9002/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    hostname: eureka-client-9005
+    ip-address: 127.0.0.1
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 9
+
+ribbon:
+  ReadTimeout: 6000 #建立连接所用的时间，适用于网络状况正常的情况下，两端两端连接所用的时间
+  ConnectionTimeout: 6000 #建立连接后，服务器读取到可用资源的时间
+  MaxAutoRetries: 1               #同一台实例的最大重试次数，但是不包括首次调用，默认为1次
+  MaxAutoRetriesNextServer: 0     #重试负载均衡其他实例的最大重试次数，不包括首次调用，默认为0次
+  OkToRetryOnAllOperations: false #/是否对所有操作都重试，默认false
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 3000
+        readTimeout: 3000
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml
+  level:
+      #feign 日志以什么样的级别监控该接口
+    com.zmm.springcloud.service: info
+

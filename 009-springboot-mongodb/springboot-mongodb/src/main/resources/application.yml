@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+# REDIS
+# Redis数据库索引（默认为0）
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/test
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml

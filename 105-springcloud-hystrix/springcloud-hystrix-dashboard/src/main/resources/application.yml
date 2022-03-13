@@ -1,0 +1,21 @@
+server:
+  port: 9055
+
+spring:
+  application:
+    name: hystrix-dashboard-9055
+
+#http://eureka7001.com:9002/hystrix 熔断器监控页面
+# localhost:8004//actuator/hystrix.stream 监控地址
+hystrix:
+  dashboard:
+    proxy-stream-allow-list:
+      - "localhost"
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml
+

@@ -1,0 +1,29 @@
+server:
+  port: 9061
+
+spring:
+  application:
+    name: spring-cloud-alibaba-consumer-9061
+  cloud:
+    #Nacos Server 的地址
+    nacos:
+      discovery:
+        server-addr: localhost:8848  #Nacos server 的地址
+#以下配置信息并不是默认配置，而是我们自定义的配置，目的是不在 Controller 内硬编码服务提供者的服务名
+service-url:
+  nacos-user-service: http://spring-cloud-alibaba-nacos-provider #服务提供者的服务名
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml
+

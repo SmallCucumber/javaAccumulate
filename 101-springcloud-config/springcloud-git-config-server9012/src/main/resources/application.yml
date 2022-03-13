@@ -1,0 +1,60 @@
+server:
+  port: 9012
+
+spring:
+  application:
+    name: config-git-server-name
+  cloud:
+    config:
+      server:
+        git:
+          password: SPRING502512367
+          username: SmallCucumber@163.com
+          uri:  https://gitee.com/smallCucumber/springcloud-config.git
+          force-pull: true
+          search-paths:
+            #- config
+            - springcloud-config-path #gitee 上面的文件夹 如果search-paths什么都没有默认就是读取gitee根目录下的配置文件
+      label: master
+eureka:
+  client:
+    # 让自己不需要注册在上面禁止客户端注册，表明自己是一个eureka server
+    register-with-eureka: true #是否将自己注册到eureka服务端上去
+    fetch-registry: true #是否获取eureka服务端上注册的服务列表
+    serviceUrl:
+      defaultZone: http://eureka-server-9000:9000/eureka
+      #defaultZone:  http://test:123456@eureka-server-9001:9001/eureka,http://test:123456@eureka-server-9002:9002/eureka
+      #http://eureka-server-9001:9001/eureka/,http://eureka-server-9002:9002/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    hostname: 127.0.0.1
+    ip-address: 127.0.0.1
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 9
+
+
+  ##自动刷新config配置文件部分
+  ##### RabbitMQ 相关配置，15672 是web 管理界面的端口，5672 是 MQ 的访问端口###########
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+# Spring Boot 2.50对 actuator 监控屏蔽了大多数的节点，只暴露了 heath 节点，本段配置（*）就是为了开启所有的节点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml
+

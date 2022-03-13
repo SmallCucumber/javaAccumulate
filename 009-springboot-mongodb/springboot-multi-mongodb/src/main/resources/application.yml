@@ -1,0 +1,17 @@
+server:
+  port: 8888
+
+mongodb:
+  primary:
+    uri: mongodb://192.168.0.75:20000
+    database: primary
+  secondary:
+    uri: mongodb://192.168.0.75:20000
+    database: secondary
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml

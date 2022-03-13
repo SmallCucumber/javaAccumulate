@@ -1,0 +1,40 @@
+server:
+  port: 9053
+
+spring:
+  application:
+    name: hystrix-provider-global-name
+
+eureka:
+  client:
+    # 让自己不需要注册在上面禁止客户端注册，表明自己是一个eureka server
+    register-with-eureka: true #是否将自己注册到eureka服务端上去
+    fetch-registry: true #是否获取eureka服务端上注册的服务列表
+    serviceUrl:
+      defaultZone: http://test:123456@eureka-server-9000:9000/eureka
+      #defaultZone:  http://test:123456@eureka-server-9001:9001/eureka,http://test:123456@eureka-server-9002:9002/eureka
+      #http://eureka-server-9001:9001/eureka/,http://eureka-server-9002:9002/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    hostname: eureka-client-9005
+    ip-address: 127.0.0.1
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 9
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # * 在yaml 文件属于关键字，所以需要加引号
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml
+

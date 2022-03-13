@@ -1,0 +1,26 @@
+server:
+  port: 9060
+
+spring:
+  application:
+    name: spring-cloud-alibaba-nacos-provider
+
+#Nacos Server 的地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr:  127.0.0.1:8848
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml
+
