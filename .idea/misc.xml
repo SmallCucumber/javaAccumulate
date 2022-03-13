@@ -9,6 +9,29 @@
         <option value="$PROJECT_DIR$/004-springboot-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/005-springboot-fastDFS/pom.xml" />
         <option value="$PROJECT_DIR$/006-springboot-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/007-springboot-scheduler/pom.xml" />
+        <option value="$PROJECT_DIR$/008-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/009-springboot-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/010-springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/011-springboot-mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/012-springboot-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/013-springboot-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/015-springboot-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/014-springboot-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/016-springboot-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/017-springboot-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/018-springboot-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/019-springboot-springSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/020-springboot-ehcache/pom.xml" />
+        <option value="$PROJECT_DIR$/100-springcloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/101-springcloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/101-springcloud-config/springcloud-standalone-native-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/102-springcloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/103-springcloud-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/104-springcloud-open-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/105-springcloud-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/106-springcloud-alibaba-nacos/pom.xml" />
       </list>
     </option>
   </component>
