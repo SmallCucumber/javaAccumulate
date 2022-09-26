@@ -9,6 +9,7 @@
           <factory-entry name="entityManagerFactory" />
           <factory-entry name="entityManagerFactoryPrimary" />
           <factory-entry name="entityManagerFactorySecondary" />
+          <factory-entry name="springboot-mult-jpa" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

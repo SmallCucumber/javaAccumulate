@@ -7,59 +7,64 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="013-springboot-kafka" />
-        <module name="007-springboot-scheduler" />
-        <module name="elasticsearch-simple-high-level-client" />
-        <module name="springcloud-hystrix-consumer-global-fallback" />
-        <module name="springcloud-hystrix-provider-9050" />
-        <module name="springcloud-gateway-service-provider-9022" />
-        <module name="springcloud-gateway-service-provider-9021" />
-        <module name="eureka-client-9005" />
-        <module name="springboot-rabbitmq" />
-        <module name="springboot-mybatis-xml" />
-        <module name="springboot-jpa-crud" />
+        <module name="springboot-mybatis-annotation" />
+        <module name="006-springboot-mail" />
+        <module name="springcloud-hystrix-provider-global-fallback" />
         <module name="014-springboot-rocketmq" />
+        <module name="springcloud-ribbon-9030" />
+        <module name="springcloud-alibaba-consumer-nacos-9061" />
+        <module name="springboot-mybatis-multi-annotation" />
+        <module name="springboot-multi-mongodb" />
+        <module name="springboot-mult-jpa" />
+        <module name="005-springboot-fastDFS" />
+        <module name="springboot-rabbitmq" />
         <module name="springcloud-alibaba-nacos-config-client-9062" />
+        <module name="springcloud-standalone-gateway-9020" />
+        <module name="springcloud-hystrix-provider-circuitbreaker-9054" />
+        <module name="springcloud-hystrix-consumer-9051" />
+        <module name="002-springboot-config" />
+        <module name="springcloud-open-feign-9040" />
+        <module name="springcloud-alibaba-nacos-register-provider-9060" />
+        <module name="springboot-mybatis-plus" />
+        <module name="springboot-ehcache" />
+        <module name="013-springboot-kafka" />
+        <module name="022-springboot-transactional-lose" />
+        <module name="004-springboot-thymeleaf" />
+        <module name="001-springboot-start" />
+        <module name="024-springboot-async" />
+        <module name="springboot-rabbitmq-1" />
+        <module name="springboot-mongodb" />
+        <module name="elasticsearch-rest-high-level-client" />
+        <module name="springcloud-gateway-service-provider-9021" />
+        <module name="springcloud-gateway-service-provider-9022" />
+        <module name="springcloud-git-config-server9013" />
+        <module name="springcloud-git-config-server9012" />
+        <module name="023-springboot-futureTask" />
+        <module name="008-springboot-redis" />
+        <module name="springboot-rabbitmq-DeadLetter" />
         <module name="springboot-jpa" />
+        <module name="019-springboot-springSecurity" />
+        <module name="eureka-client-9005" />
+        <module name="springboot-jpa-crud" />
+        <module name="springcloud-hystrix-dashboard" />
+        <module name="eureka-client-9004" />
+        <module name="springboot-webFlux" />
+        <module name="springcloud-hystrix-provider-9050" />
+        <module name="springcloud-hystrix-consumer-global-fallback" />
+        <module name="springcloud-config-clien-9011" />
+        <module name="eureka-server-cluster-9002" />
+        <module name="eureka-server-cluster-9001" />
+        <module name="springboot-mybatis-multi-xml" />
+        <module name="springboot-mybatis-xml" />
+        <module name="springcloud-native-standalone-config-server" />
+        <module name="springboot-elasticsearch" />
+        <module name="025-springboot-completableFuture" />
         <module name="springboot-swagger3" />
         <module name="springboot-swagger2" />
-        <module name="springboot-multi-mongodb" />
-        <module name="springboot-mybatis-multi-xml" />
-        <module name="springcloud-git-config-server9013" />
-        <module name="springcloud-open-feign-9040" />
-        <module name="springcloud-hystrix-consumer-9051" />
-        <module name="019-springboot-springSecurity" />
-        <module name="springcloud-config-clien-9011" />
-        <module name="eureka-client-9004" />
-        <module name="springboot-mybatis-annotation" />
-        <module name="springcloud-alibaba-nacos-register-provider-9060" />
-        <module name="springboot-elasticsearch" />
-        <module name="elasticsearch-rest-high-level-client" />
-        <module name="eureka-server-cluster-9002" />
-        <module name="springcloud-hystrix-provider-circuitbreaker-9054" />
-        <module name="005-springboot-fastDFS" />
         <module name="eureka-server-standalone-9000" />
-        <module name="eureka-server-cluster-9001" />
-        <module name="springcloud-ribbon-9030" />
-        <module name="008-springboot-redis" />
-        <module name="springboot-mybatis-plus" />
-        <module name="springcloud-alibaba-consumer-nacos-9061" />
-        <module name="004-springboot-thymeleaf" />
-        <module name="springboot-rabbitmq-1" />
-        <module name="001-springboot-start" />
-        <module name="002-springboot-config" />
-        <module name="springboot-ehcache" />
-        <module name="springcloud-native-standalone-config-server" />
-        <module name="springcloud-hystrix-provider-global-fallback" />
-        <module name="springboot-mybatis-multi-annotation" />
-        <module name="springboot-webFlux" />
-        <module name="springboot-mult-jpa" />
-        <module name="springcloud-standalone-gateway-9020" />
-        <module name="springboot-rabbitmq-DeadLetter" />
-        <module name="springboot-mongodb" />
-        <module name="springcloud-git-config-server9012" />
-        <module name="springcloud-hystrix-dashboard" />
-        <module name="006-springboot-mail" />
+        <module name="007-springboot-scheduler" />
+        <module name="021-springboot-exception" />
+        <module name="elasticsearch-simple-high-level-client" />
       </profile>
       <profile name="Annotation profile for 018-springboot-swagger" enabled="true">
         <sourceOutputDir name="../018-springboot-swagger/target/generated-sources/annotations" />
@@ -89,6 +94,11 @@
       <module name="018-springboot-shior" target="1.5" />
       <module name="019-springboot-springSecurity" target="11" />
       <module name="020-springboot-ehcache" target="11" />
+      <module name="021-springboot-exception" target="8" />
+      <module name="022-springboot-transactional-lose" target="8" />
+      <module name="023-springboot-futureTask" target="8" />
+      <module name="024-springboot-async" target="8" />
+      <module name="025-springboot-completableFuture" target="8" />
       <module name="100-springcloud-eureka" target="1.8" />
       <module name="101-springcloud-config" target="1.8" />
       <module name="102-springcloud-gateway" target="1.8" />
@@ -161,6 +171,11 @@
       <module name="017-springboot-webflux" options="-parameters" />
       <module name="019-springboot-springSecurity" options="-parameters" />
       <module name="020-springboot-ehcache" options="-parameters" />
+      <module name="021-springboot-exception" options="-parameters" />
+      <module name="022-springboot-transactional-lose" options="-parameters" />
+      <module name="023-springboot-futureTask" options="-parameters" />
+      <module name="024-springboot-async" options="-parameters" />
+      <module name="025-springboot-completableFuture" options="-parameters" />
       <module name="102-springcloud-gateway" options="-parameters" />
       <module name="elasticsearch-rest-high-level-client" options="-parameters" />
       <module name="elasticsearch-simple-high-level-client" options="-parameters" />

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zmm.springboot.mapper.UserMapper" >
+
+    <insert id="insert" parameterType="com.zmm.springboot.model.User" >
+        INSERT INTO
+            users
+            (user_name,pass_word,nick_name)
+        VALUES
+            (#{userName}, #{passWord}, #{nickName})
+    </insert>
+
+
+</mapper>

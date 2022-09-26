@@ -32,6 +32,11 @@
         <option value="$PROJECT_DIR$/104-springcloud-open-feign/pom.xml" />
         <option value="$PROJECT_DIR$/105-springcloud-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/106-springcloud-alibaba-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/021-springboot-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/022-springboot-transactional-lose/pom.xml" />
+        <option value="$PROJECT_DIR$/023-springboot-futureTask/pom.xml" />
+        <option value="$PROJECT_DIR$/024-springboot-async/pom.xml" />
+        <option value="$PROJECT_DIR$/025-springboot-completableFuture/pom.xml" />
       </list>
     </option>
   </component>

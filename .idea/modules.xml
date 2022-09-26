@@ -22,6 +22,11 @@
       <module fileurl="file://$PROJECT_DIR$/018-springboot-shior/018-springboot-shior.iml" filepath="$PROJECT_DIR$/018-springboot-shior/018-springboot-shior.iml" />
       <module fileurl="file://$PROJECT_DIR$/019-springboot-springSecurity/019-springboot-springSecurity.iml" filepath="$PROJECT_DIR$/019-springboot-springSecurity/019-springboot-springSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/020-springboot-ehcache/020-springboot-ehcache.iml" filepath="$PROJECT_DIR$/020-springboot-ehcache/020-springboot-ehcache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/021-springboot-exception/021-springboot-exception.iml" filepath="$PROJECT_DIR$/021-springboot-exception/021-springboot-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/022-springboot-transactional-lose/022-springboot-transactional-lose.iml" filepath="$PROJECT_DIR$/022-springboot-transactional-lose/022-springboot-transactional-lose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/023-springboot-futureTask/023-springboot-futureTask.iml" filepath="$PROJECT_DIR$/023-springboot-futureTask/023-springboot-futureTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/024-springboot-async/024-springboot-async.iml" filepath="$PROJECT_DIR$/024-springboot-async/024-springboot-async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/025-springboot-completableFuture/025-springboot-completableFuture.iml" filepath="$PROJECT_DIR$/025-springboot-completableFuture/025-springboot-completableFuture.iml" />
       <module fileurl="file://$PROJECT_DIR$/100-springcloud-eureka/100-springcloud-eureka.iml" filepath="$PROJECT_DIR$/100-springcloud-eureka/100-springcloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/101-springcloud-config/101-springcloud-config.iml" filepath="$PROJECT_DIR$/101-springcloud-config/101-springcloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/102-springcloud-gateway/102-springcloud-gateway.iml" filepath="$PROJECT_DIR$/102-springcloud-gateway/102-springcloud-gateway.iml" />

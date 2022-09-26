@@ -30,6 +30,12 @@
     <file url="file://$PROJECT_DIR$/016-springboot-swagger/springboot-swagger3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/017-springboot-webflux/springboot-webFlux/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/020-springboot-ehcache/springboot-ehcache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/021-springboot-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/022-springboot-transactional-lose/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/023-springboot-futureTask/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/023-springboot-futureTask/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/024-springboot-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/025-springboot-completableFuture/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9004/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9005/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9005/src/main/resources" charset="UTF-8" />

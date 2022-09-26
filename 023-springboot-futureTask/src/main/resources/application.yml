@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/com.zmm.springboot.mapper/*.xml #多个用,隔开
+  type-aliases-package: com.zmm.springboot.model
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: root
+    #password: 123456
+    password: root123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml

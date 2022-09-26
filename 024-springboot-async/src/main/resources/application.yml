@@ -1,0 +1,19 @@
+server:
+  port: 8888
+
+spring:
+  task:
+    execution:
+      pool:
+        max-size: 6
+        core-size: 3
+        keep-alive: 3
+        queue-capacity: 1000
+      thread-name-prefix: myNameAsync
+
+logging:
+  home: logs
+  maxHistory: 30
+  totalSizeCap: 20GB
+  maxFileSize: 200MB
+  config: classpath:logback-custom.xml
