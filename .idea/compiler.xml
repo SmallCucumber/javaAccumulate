@@ -10,23 +10,25 @@
         <module name="springboot-mybatis-annotation" />
         <module name="006-springboot-mail" />
         <module name="springcloud-hystrix-provider-global-fallback" />
-        <module name="014-springboot-rocketmq" />
         <module name="springcloud-ribbon-9030" />
+        <module name="014-springboot-rocketmq" />
         <module name="springcloud-alibaba-consumer-nacos-9061" />
         <module name="springboot-mybatis-multi-annotation" />
+        <module name="gateway-nacos-refresh-9063" />
         <module name="springboot-multi-mongodb" />
         <module name="springboot-mult-jpa" />
         <module name="005-springboot-fastDFS" />
-        <module name="springboot-rabbitmq" />
+        <module name="skywalking-gateway" />
         <module name="springcloud-alibaba-nacos-config-client-9062" />
+        <module name="springboot-rabbitmq" />
         <module name="springcloud-standalone-gateway-9020" />
         <module name="springcloud-hystrix-provider-circuitbreaker-9054" />
         <module name="springcloud-hystrix-consumer-9051" />
         <module name="002-springboot-config" />
         <module name="springcloud-open-feign-9040" />
         <module name="springcloud-alibaba-nacos-register-provider-9060" />
-        <module name="springboot-mybatis-plus" />
         <module name="springboot-ehcache" />
+        <module name="springboot-mybatis-plus" />
         <module name="013-springboot-kafka" />
         <module name="022-springboot-transactional-lose" />
         <module name="004-springboot-thymeleaf" />
@@ -41,6 +43,7 @@
         <module name="springcloud-git-config-server9012" />
         <module name="023-springboot-futureTask" />
         <module name="008-springboot-redis" />
+        <module name="skywalking-account" />
         <module name="springboot-rabbitmq-DeadLetter" />
         <module name="springboot-jpa" />
         <module name="019-springboot-springSecurity" />
@@ -54,6 +57,7 @@
         <module name="springcloud-config-clien-9011" />
         <module name="eureka-server-cluster-9002" />
         <module name="eureka-server-cluster-9001" />
+        <module name="facade-9064" />
         <module name="springboot-mybatis-multi-xml" />
         <module name="springboot-mybatis-xml" />
         <module name="springcloud-native-standalone-config-server" />
@@ -62,15 +66,10 @@
         <module name="springboot-swagger3" />
         <module name="springboot-swagger2" />
         <module name="eureka-server-standalone-9000" />
-        <module name="007-springboot-scheduler" />
         <module name="021-springboot-exception" />
+        <module name="007-springboot-scheduler" />
         <module name="elasticsearch-simple-high-level-client" />
-      </profile>
-      <profile name="Annotation profile for 018-springboot-swagger" enabled="true">
-        <sourceOutputDir name="../018-springboot-swagger/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../018-springboot-swagger/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="018-springboot-shior" />
+        <module name="skywalking-order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -106,6 +105,7 @@
       <module name="104-springcloud-open-feign" target="1.8" />
       <module name="105-springcloud-hystrix" target="1.8" />
       <module name="106-springcloud-alibaba-nacos" target="1.8" />
+      <module name="107-skywalking" target="8" />
       <module name="elasticsearch-rest-high-level-client" target="11" />
       <module name="elasticsearch-simple-high-level-client" target="11" />
       <module name="eureka-client-9004" target="1.8" />
@@ -113,6 +113,11 @@
       <module name="eureka-server-cluster-9001" target="1.8" />
       <module name="eureka-server-cluster-9002" target="1.8" />
       <module name="eureka-server-standalone-9000" target="1.8" />
+      <module name="facade-9064" target="8" />
+      <module name="gateway-nacos-refresh-9063" target="8" />
+      <module name="skywalking-account" target="8" />
+      <module name="skywalking-gateway" target="8" />
+      <module name="skywalking-order" target="8" />
       <module name="springboot-ehcache" target="11" />
       <module name="springboot-elasticsearch" target="11" />
       <module name="springboot-jpa" target="11" />
@@ -184,6 +189,11 @@
       <module name="eureka-server-cluster-9001" options="-parameters" />
       <module name="eureka-server-cluster-9002" options="-parameters" />
       <module name="eureka-server-standalone-9000" options="-parameters" />
+      <module name="facade-9064" options="-parameters" />
+      <module name="gateway-nacos-refresh-9063" options="-parameters" />
+      <module name="skywalking-account" options="-parameters" />
+      <module name="skywalking-gateway" options="-parameters" />
+      <module name="skywalking-order" options="-parameters" />
       <module name="springboot-ehcache" options="-parameters" />
       <module name="springboot-elasticsearch" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />

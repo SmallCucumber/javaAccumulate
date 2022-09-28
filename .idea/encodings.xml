@@ -58,9 +58,15 @@
     <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-provider-9050/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-provider-circuitbreaker-9054/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-provider-global-fallback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/facade-9064/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/gateway-nacos-refresh-9063/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/springcloud-alibaba-consumer-nacos-9061/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/springcloud-alibaba-nacos-config-client-9062/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/springcloud-alibaba-nacos-register-provider-9060/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/springcloud-alibaba-nacos-register-provider-9060/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/107-skywalking/skywalking-account/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/107-skywalking/skywalking-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/107-skywalking/skywalking-order/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

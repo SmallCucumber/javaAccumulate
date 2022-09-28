@@ -12,6 +12,8 @@
         <module>springcloud-alibaba-nacos-register-provider-9060</module>
         <module>springcloud-alibaba-consumer-nacos-9061</module>
         <module>springcloud-alibaba-nacos-config-client-9062</module>
+        <module>gateway-nacos-refresh-9063</module>
+        <module>facade-9064</module>
     </modules>
 
     <parent>
