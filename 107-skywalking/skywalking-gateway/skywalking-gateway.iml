@@ -113,5 +113,10 @@
     <orderEntry type="library" name="Maven: org.hdrhistogram:HdrHistogram:2.1.12" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.latencyutils:LatencyUtils:2.0.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.20" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.skywalking:apm-toolkit-trace:8.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.skywalking:apm-toolkit-opentracing:8.12.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-api:0.30.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-noop:0.30.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.skywalking:apm-toolkit-logback-1.x:8.12.0" level="project" />
   </component>
 </module>

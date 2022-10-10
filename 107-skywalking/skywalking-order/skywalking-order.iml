@@ -118,5 +118,11 @@
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.27" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-bootstrap:3.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.skywalking:apm-toolkit-trace:8.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.skywalking:apm-toolkit-opentracing:8.12.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-api:0.30.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-noop:0.30.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.skywalking:apm-toolkit-logback-1.x:8.12.0" level="project" />
+    <orderEntry type="library" name="Maven: cn.hutool:hutool-all:5.8.0.M3" level="project" />
   </component>
 </module>
