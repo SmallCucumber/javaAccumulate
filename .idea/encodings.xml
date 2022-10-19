@@ -4,38 +4,66 @@
     <file url="file://$PROJECT_DIR$/001-springboot-start/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/001-springboot-start/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/002-springboot-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/002-springboot-config/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa-crud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa-crud/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/003-springboot-jpa/springboot-mult-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-springboot-jpa/springboot-mult-jpa/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/004-springboot-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/004-springboot-thymeleaf/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/005-springboot-fastDFS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-springboot-fastDFS/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/006-springboot-mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/006-springboot-mail/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/007-springboot-scheduler/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/008-springboot-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/008-springboot-redis/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/009-springboot-mongodb/springboot-mongodb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/009-springboot-mongodb/springboot-mongodb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/009-springboot-mongodb/springboot-multi-mongodb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/009-springboot-mongodb/springboot-multi-mongodb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-multi-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-multi-annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-multi-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-multi-xml/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-xml/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/011-springboot-mybatis-plus/springboot-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-springboot-mybatis-plus/springboot-mybatis-plus/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/012-springboot-rabbitmq/springboot-rabbitmq-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/012-springboot-rabbitmq/springboot-rabbitmq-1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/012-springboot-rabbitmq/springboot-rabbitmq-DeadLetter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/012-springboot-rabbitmq/springboot-rabbitmq-DeadLetter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/012-springboot-rabbitmq/springboot-rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/012-springboot-rabbitmq/springboot-rabbitmq/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-rest-high-level-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-rest-high-level-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-simple-high-level-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-simple-high-level-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/015-springboot-elasticsearch/springboot-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/015-springboot-elasticsearch/springboot-elasticsearch/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/016-springboot-swagger/springboot-swagger2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/016-springboot-swagger/springboot-swagger2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/016-springboot-swagger/springboot-swagger3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/016-springboot-swagger/springboot-swagger3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/017-springboot-webflux/springboot-webFlux/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/017-springboot-webflux/springboot-webFlux/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/020-springboot-ehcache/springboot-ehcache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/020-springboot-ehcache/springboot-ehcache/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/021-springboot-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/021-springboot-exception/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/022-springboot-transactional-lose/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/022-springboot-transactional-lose/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/023-springboot-futureTask/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/023-springboot-futureTask/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/024-springboot-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/024-springboot-async/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/025-springboot-completableFuture/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/025-springboot-completableFuture/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9004/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9005/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9005/src/main/resources" charset="UTF-8" />
@@ -44,29 +72,56 @@
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-server-cluster-9002/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-server-standalone-9000/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/101-springcloud-config/springcloud-config-clien-9011/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/101-springcloud-config/springcloud-config-clien-9011/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/101-springcloud-config/springcloud-git-config-server9012/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/101-springcloud-config/springcloud-git-config-server9012/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/101-springcloud-config/springcloud-git-config-server9013/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/101-springcloud-config/springcloud-git-config-server9013/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/101-springcloud-config/springcloud-native-standalone-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/101-springcloud-config/springcloud-native-standalone-config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/102-springcloud-gateway/springcloud-gateway-service-provider-9021/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/102-springcloud-gateway/springcloud-gateway-service-provider-9021/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/102-springcloud-gateway/springcloud-gateway-service-provider-9022/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/102-springcloud-gateway/springcloud-gateway-service-provider-9022/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/102-springcloud-gateway/springcloud-standalone-gateway-9020/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/102-springcloud-gateway/springcloud-standalone-gateway-9020/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/103-springcloud-ribbon/springcloud-ribbon-9030/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/103-springcloud-ribbon/springcloud-ribbon-9030/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/104-springcloud-open-feign/springcloud-open-feign-9040/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/104-springcloud-open-feign/springcloud-open-feign-9040/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-consumer-9051/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-consumer-9051/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-consumer-global-fallback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-consumer-global-fallback/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-dashboard/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-provider-9050/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-provider-9050/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-provider-circuitbreaker-9054/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-provider-circuitbreaker-9054/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-provider-global-fallback/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/105-springcloud-hystrix/springcloud-hystrix-provider-global-fallback/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/facade-9064/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/facade-9064/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/gateway-nacos-refresh-9063/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/gateway-nacos-refresh-9063/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/springcloud-alibaba-consumer-nacos-9061/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/springcloud-alibaba-consumer-nacos-9061/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/springcloud-alibaba-nacos-config-client-9062/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/springcloud-alibaba-nacos-config-client-9062/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/springcloud-alibaba-nacos-register-provider-9060/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/springcloud-alibaba-nacos-register-provider-9060/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/107-skywalking/skywalking-account/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/107-skywalking/skywalking-account/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/107-skywalking/skywalking-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/107-skywalking/skywalking-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/107-skywalking/skywalking-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/107-skywalking/skywalking-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/gateway-sentinel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/nacos-config-sentinel-rule/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-consumer-mysql-8403/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-provider-mysql-8402/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-sentinel-service-8401/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

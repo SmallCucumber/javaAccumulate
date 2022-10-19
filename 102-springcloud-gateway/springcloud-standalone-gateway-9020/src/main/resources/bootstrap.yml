@@ -17,10 +17,10 @@ spring:
             - Method=GET
           filters:
             - PrefixPath=/dept #在请求路径上增加一个前缀 /dept  将请求变成/dept/list/**在断言（predicates）
-            - AddRequestHeader=my-request-header,1024 #拦截传入的请求，并在请求上添加一个指定的请求头参数。
-            - AddRequestParameter=my-request-param,c.biancheng.net  #拦截传入的请求，并在请求上添加一个指定的请求参数。
-
-            - AddResponseHeader=my-response-header,c.biancheng.net  #拦截响应，并在响应上添加一个指定的响应头参数。
+          #  - AddRequestHeader=my-request-header,1024 #拦截传入的请求，并在请求上添加一个指定的请求头参数。
+          #  - AddRequestParameter=my-request-param,c.biancheng.net  #拦截传入的请求，并在请求上添加一个指定的请求参数。
+#
+          #  - AddResponseHeader=my-response-header,c.biancheng.net  #拦截响应，并在响应上添加一个指定的响应头参数。
   application:
     name: gateway-server
 

@@ -38,6 +38,7 @@
         <option value="$PROJECT_DIR$/024-springboot-async/pom.xml" />
         <option value="$PROJECT_DIR$/025-springboot-completableFuture/pom.xml" />
         <option value="$PROJECT_DIR$/107-skywalking/pom.xml" />
+        <option value="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/pom.xml" />
       </list>
     </option>
   </component>

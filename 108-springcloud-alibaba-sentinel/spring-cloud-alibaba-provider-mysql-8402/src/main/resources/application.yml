@@ -1,0 +1,30 @@
+server:
+  port: 8402 #端口
+spring:
+  application:
+    name: spring-cloud-alibaba-provider-mysql
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.29.16:8848
+        namespace: test
+  ######################### 数据库连接 #################################
+  datasource:
+    username: root        #数据库登陆用户名
+    password: root123       #数据库登陆密码
+    url: jdbc:mysql://192.168.29.16:3306/test       #数据库url
+    driver-class-name: com.mysql.cj.jdbc.Driver
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # * 在yaml 文件属于关键字，所以需要加引号
+###################################### MyBatis 配置 ######################################
+mybatis:
+  # 指定 mapper.xml 的位置
+  mapper-locations: classpath:mapper/*.xml
+  #扫描实体类的位置,在此处指明扫描实体类的包，在 mapper.xml 中就可以不写实体类的全路径名
+  type-aliases-package: com.zmm.entity
+  configuration:
+    #默认开启驼峰命名法，可以不用设置该属性
+    map-underscore-to-camel-case: true

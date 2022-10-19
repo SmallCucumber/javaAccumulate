@@ -24,7 +24,7 @@ public class DeptController {
     public String getPayment(@PathVariable("id") Integer id) {
         log.info("DeptController>>getPayment>>id={}",id);
 
-        return "<h2>c语言中文网提醒您，服务访问成功！</h2>服务名：spring-cloud-alibaba-provider<br /> 端口号： " + serverPort + "<br /> 传入的参数：" + id;
+        return "<h2>服务访问成功！</h2>服务名：spring-cloud-alibaba-provider<br /> 端口号： " + serverPort + "<br /> 传入的参数：" + id;
     }
 
 }

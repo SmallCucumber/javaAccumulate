@@ -11,7 +11,7 @@ eureka:
     register-with-eureka: true #是否将自己注册到eureka服务端上去
     fetch-registry: true #是否获取eureka服务端上注册的服务列表
     serviceUrl:
-      defaultZone: http://test:123456@eureka-server-9000:9000/eureka
+      defaultZone: http://eureka-server-9000:9000/eureka
       #defaultZone:  http://test:123456@eureka-server-9001:9001/eureka,http://test:123456@eureka-server-9002:9002/eureka
       #http://eureka-server-9001:9001/eureka/,http://eureka-server-9002:9002/eureka/
     healthcheck:

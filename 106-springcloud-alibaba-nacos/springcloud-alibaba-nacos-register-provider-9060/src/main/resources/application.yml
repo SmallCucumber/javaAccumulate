@@ -10,11 +10,11 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.9.223:8848  #Nacos server 的地址
-        namespace: zmm9023
+        server-addr: 192.168.29.16:8848  #Nacos server 的地址
+        #namespace: zmm9023
       config:
-        server-addr: 192.168.9.223:8848 #Nacos作为配置中心地址
-        namespace: zmm9023
+        server-addr: 192.168.29.16:8848 #Nacos作为配置中心地址
+        #namespace: zmm9023
 
 management:
   endpoints:

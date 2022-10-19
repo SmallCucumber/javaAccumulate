@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-mybatis-annotation" />
         <module name="006-springboot-mail" />
+        <module name="spring-cloud-alibaba-sentinel-service-8401" />
         <module name="springcloud-hystrix-provider-global-fallback" />
         <module name="springcloud-ribbon-9030" />
         <module name="014-springboot-rocketmq" />
@@ -35,6 +36,7 @@
         <module name="001-springboot-start" />
         <module name="024-springboot-async" />
         <module name="springboot-rabbitmq-1" />
+        <module name="nacos-config-sentinel-rule" />
         <module name="springboot-mongodb" />
         <module name="elasticsearch-rest-high-level-client" />
         <module name="springcloud-gateway-service-provider-9021" />
@@ -45,12 +47,15 @@
         <module name="008-springboot-redis" />
         <module name="skywalking-account" />
         <module name="springboot-rabbitmq-DeadLetter" />
+        <module name="gateway-sentinel" />
         <module name="springboot-jpa" />
         <module name="019-springboot-springSecurity" />
         <module name="eureka-client-9005" />
         <module name="springboot-jpa-crud" />
+        <module name="spring-cloud-alibaba-consumer-mysql-8403" />
         <module name="springcloud-hystrix-dashboard" />
         <module name="eureka-client-9004" />
+        <module name="spring-cloud-alibaba-provider-mysql-8402" />
         <module name="springboot-webFlux" />
         <module name="springcloud-hystrix-provider-9050" />
         <module name="springcloud-hystrix-consumer-global-fallback" />
@@ -106,6 +111,7 @@
       <module name="105-springcloud-hystrix" target="1.8" />
       <module name="106-springcloud-alibaba-nacos" target="1.8" />
       <module name="107-skywalking" target="8" />
+      <module name="108-springcloud-alibaba-sentinel" target="1.8" />
       <module name="elasticsearch-rest-high-level-client" target="11" />
       <module name="elasticsearch-simple-high-level-client" target="11" />
       <module name="eureka-client-9004" target="1.8" />
@@ -115,9 +121,14 @@
       <module name="eureka-server-standalone-9000" target="1.8" />
       <module name="facade-9064" target="8" />
       <module name="gateway-nacos-refresh-9063" target="8" />
+      <module name="gateway-sentinel" target="8" />
+      <module name="nacos-config-sentinel-rule" target="8" />
       <module name="skywalking-account" target="8" />
       <module name="skywalking-gateway" target="8" />
       <module name="skywalking-order" target="8" />
+      <module name="spring-cloud-alibaba-consumer-mysql-8403" target="8" />
+      <module name="spring-cloud-alibaba-provider-mysql-8402" target="8" />
+      <module name="spring-cloud-alibaba-sentinel-service-8401" target="8" />
       <module name="springboot-ehcache" target="11" />
       <module name="springboot-elasticsearch" target="11" />
       <module name="springboot-jpa" target="11" />
@@ -182,6 +193,7 @@
       <module name="024-springboot-async" options="-parameters" />
       <module name="025-springboot-completableFuture" options="-parameters" />
       <module name="102-springcloud-gateway" options="-parameters" />
+      <module name="108-springcloud-alibaba-sentinel" options="-parameters" />
       <module name="elasticsearch-rest-high-level-client" options="-parameters" />
       <module name="elasticsearch-simple-high-level-client" options="-parameters" />
       <module name="eureka-client-9004" options="-parameters" />
@@ -191,9 +203,14 @@
       <module name="eureka-server-standalone-9000" options="-parameters" />
       <module name="facade-9064" options="-parameters" />
       <module name="gateway-nacos-refresh-9063" options="-parameters" />
+      <module name="gateway-sentinel" options="-parameters" />
+      <module name="nacos-config-sentinel-rule" options="-parameters" />
       <module name="skywalking-account" options="-parameters" />
       <module name="skywalking-gateway" options="-parameters" />
       <module name="skywalking-order" options="-parameters" />
+      <module name="spring-cloud-alibaba-consumer-mysql-8403" options="-parameters" />
+      <module name="spring-cloud-alibaba-provider-mysql-8402" options="-parameters" />
+      <module name="spring-cloud-alibaba-sentinel-service-8401" options="-parameters" />
       <module name="springboot-ehcache" options="-parameters" />
       <module name="springboot-elasticsearch" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />

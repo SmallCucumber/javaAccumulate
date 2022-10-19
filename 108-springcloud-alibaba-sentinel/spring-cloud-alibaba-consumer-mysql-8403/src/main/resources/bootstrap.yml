@@ -1,0 +1,70 @@
+server:
+  port: 8403 #端口
+spring:
+  application:
+    name: spring-cloud-alibaba-consumer-mysql
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.29.16:8848
+        namespace: test
+      config:
+        server-addr: 192.168.29.16:8848
+        namespace: test
+        file-extension: yml
+    sentinel:
+      transport:
+        dashboard: 192.168.29.16:8080
+        port: 8719
+      datasource:
+        ds:
+          nacos:
+            server-addr: 192.168.29.16:8848
+            namespace: test
+            #dataId: ${spring.application.name}-rules
+            dataId: sentinel-rules
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+#  sentinel-rules
+#  [
+#    {
+#      "resource": "GET:http://spring-cloud-alibaba-provider-mysql/dept/get/{id}",
+#      "limitApp": "default",
+#      "grade": 1,
+#      "count": 2,
+#      "strategy": 0,
+#      "controlBehavior": 0,
+#      "clusterMode": false
+#    }
+#  ]
+
+
+
+# 以下配置信息并不是默认配置，而是我们自定义的配置，目的是不在 Controller 内硬编码 服务提供者的服务名
+service-url:
+  nacos-user-service: http://spring-cloud-alibaba-provider-mysql #消费者要方位的微服务名称
+
+ribbon:
+  ReadTimeout: 6000 #建立连接所用的时间，适用于网络状况正常的情况下，两端两端连接所用的时间
+  ConnectionTimeout: 6000 #建立连接后，服务器读取到可用资源的时间
+  MaxAutoRetries: 1               #同一台实例的最大重试次数，但是不包括首次调用，默认为1次
+  MaxAutoRetriesNextServer: 0     #重试负载均衡其他实例的最大重试次数，不包括首次调用，默认为0次
+  OkToRetryOnAllOperations: false #/是否对所有操作都重试，默认false
+
+# 激活Sentinel对Feign的支持
+feign:
+  sentinel:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 3000
+        readTimeout: 3000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # * 在yaml 文件属于关键字，所以需要加引号

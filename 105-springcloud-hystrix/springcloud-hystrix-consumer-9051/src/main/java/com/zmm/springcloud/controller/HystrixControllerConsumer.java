@@ -42,6 +42,6 @@ public class HystrixControllerConsumer {
       */
     public String dept_TimeoutHandler(@PathVariable("id") Integer id) {
         log.info("deptInfo_Timeout 出错，服务已被降级！");
-        return "C语言中文网提醒您：服务端系统繁忙，请稍后再试！（客户端 deptInfo_Timeout 专属的回退方法触发）";
+        return "服务端系统繁忙，请稍后再试！（客户端 deptInfo_Timeout 专属的回退方法触发）";
     }
 }

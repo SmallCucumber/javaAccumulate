@@ -1,0 +1,48 @@
+server:
+  port: 8404 #端口
+spring:
+  application:
+    name: nacos-sentinel
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.29.16:8848
+        namespace: test
+      config:
+        server-addr: 192.168.29.16:8848
+        namespace: test
+        file-extension: yml
+    sentinel:
+      transport:
+        dashboard: 192.168.29.16:8080
+        port: 8719
+      datasource:
+        ds:
+          nacos:
+            server-addr: 192.168.29.16:8848
+            namespace: test
+            #dataId: ${spring.application.name}-rules
+            dataId: nacos-sentinel-server
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+#   nacos-sentinel-server
+#  [
+#    {
+#      "resource": "/testHello",
+#      "limitApp": "default",
+#      "grade": 1,
+#      "count": 1,
+#      "strategy": 0,
+#      "controlBehavior": 0,
+#      "clusterMode": false
+#    }
+#  ]
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # * 在yaml 文件属于关键字，所以需要加引号

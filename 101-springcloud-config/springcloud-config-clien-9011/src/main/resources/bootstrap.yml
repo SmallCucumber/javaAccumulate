@@ -8,14 +8,14 @@ spring:
     config:
 #      #  获取本地配置
 #      # 配置中心
-#      discovery:
-#        enabled: true
-#        serviceId: CONFIG-SERVER-9010-NAME
+      discovery:
+        enabled: true
+        serviceId: CONFIG-SERVER-9010-NAME
 #      # 指定配置文件
-#      name: server-zmm-user
-#      profile: default
-#    bootstrap:
-#      enabled: true
+      name: server-zmm-user
+      profile: default
+    bootstrap:
+      enabled: true
 
   # config读取文件的规则
   # /{application}/{profile}[/{label}]
@@ -24,11 +24,11 @@ spring:
   # /{application}-{profile}.properties
   # /{label}/{application}-{profile}.properties
       #获取git配置
-      label: master #分支名称
-      name: config,config-single-client #config是配置文件名称config-dev.yml中的 config
-      profile: dev  #环境名  config-dev.yml 中的 dev
+#      label: master #分支名称
+#      name: config,config-single-client #config是配置文件名称config-dev.yml中的 config
+#      profile: dev  #环境名  config-dev.yml 中的 dev
       #这里不要忘记添加 http:// 否则无法读取
-      uri: http://localhost:9012,http://localhost:9013 #Spring Cloud Config 服务端（配置中心）地址
+#      uri: http://localhost:9012,http://localhost:9013 #Spring Cloud Config 服务端（配置中心）地址
       #uri: http://config-git-server-name
 eureka:
   client:

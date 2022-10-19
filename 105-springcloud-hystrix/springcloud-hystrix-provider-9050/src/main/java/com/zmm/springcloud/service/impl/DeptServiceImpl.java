@@ -28,7 +28,7 @@ public class DeptServiceImpl implements DeptService {
      */
     @HystrixCommand(fallbackMethod = "dept_TimeoutHandler",
             commandProperties ={
-                @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "5000")
+                @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "2000")
             })
     @Override
     public String deptInfo_Timeout(Integer id) {
@@ -45,6 +45,6 @@ public class DeptServiceImpl implements DeptService {
      * 当服务出现故障后，调用该方法给出友好提示
       */
     public String dept_TimeoutHandler(Integer id) {
-        return  "C语言中文网提醒您，系统繁忙请稍后再试！"+"线程池：" + Thread.currentThread().getName() + "  deptInfo_Timeout,id:   " + id;
+        return  "系统繁忙请稍后再试！"+"线程池：" + Thread.currentThread().getName() + "  deptInfo_Timeout,id:   " + id;
     }
 }

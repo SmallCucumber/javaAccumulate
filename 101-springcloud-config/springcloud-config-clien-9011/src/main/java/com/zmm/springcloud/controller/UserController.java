@@ -18,7 +18,7 @@ public class UserController {
     @Value("${cloud.config.version}")
     private String springCloudConfigVersion;
 
-    @Value("${myname}")
+    @Value("${myname:}")
     private String myname;
 
     @RequestMapping("/save")
