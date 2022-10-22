@@ -39,7 +39,13 @@
         <option value="$PROJECT_DIR$/025-springboot-completableFuture/pom.xml" />
         <option value="$PROJECT_DIR$/107-skywalking/pom.xml" />
         <option value="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/109-springcloud-alibaba-seate/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-storage-service-8503/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

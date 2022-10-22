@@ -36,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/106-springcloud-alibaba-nacos/106-springcloud-alibaba-nacos.iml" filepath="$PROJECT_DIR$/106-springcloud-alibaba-nacos/106-springcloud-alibaba-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/107-skywalking/107-skywalking.iml" filepath="$PROJECT_DIR$/107-skywalking/107-skywalking.iml" />
       <module fileurl="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/108-springcloud-alibaba-sentinel.iml" filepath="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/108-springcloud-alibaba-sentinel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/109-springcloud-alibaba-seate/109-springcloud-alibaba-seate.iml" filepath="$PROJECT_DIR$/109-springcloud-alibaba-seate/109-springcloud-alibaba-seate.iml" />
       <module fileurl="file://$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-rest-high-level-client/elasticsearch-rest-high-level-client.iml" filepath="$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-rest-high-level-client/elasticsearch-rest-high-level-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-simple-high-level-client/elasticsearch-simple-high-level-client.iml" filepath="$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-simple-high-level-client/elasticsearch-simple-high-level-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9004/eureka-client-9004.iml" filepath="$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9004/eureka-client-9004.iml" />
@@ -48,6 +49,9 @@
       <module fileurl="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/gateway-sentinel/gateway-sentinel.iml" filepath="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/gateway-sentinel/gateway-sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaAccumulate.iml" filepath="$PROJECT_DIR$/.idea/javaAccumulate.iml" />
       <module fileurl="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/nacos-config-sentinel-rule/nacos-config-sentinel-rule.iml" filepath="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/nacos-config-sentinel-rule/nacos-config-sentinel-rule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-account-service-8502/seata-account-service-8502.iml" filepath="$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-account-service-8502/seata-account-service-8502.iml" />
+      <module fileurl="file://$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-order-service-8501/seata-order-service-8501.iml" filepath="$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-order-service-8501/seata-order-service-8501.iml" />
+      <module fileurl="file://$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-storage-service-8500/seata-storage-service-8500.iml" filepath="$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-storage-service-8500/seata-storage-service-8500.iml" />
       <module fileurl="file://$PROJECT_DIR$/107-skywalking/skywalking-account/skywalking-account.iml" filepath="$PROJECT_DIR$/107-skywalking/skywalking-account/skywalking-account.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../SkyWalking/skywalking-agent/skywalking-agent.iml" filepath="$PROJECT_DIR$/../../SkyWalking/skywalking-agent/skywalking-agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/107-skywalking/skywalking-gateway/skywalking-gateway.iml" filepath="$PROJECT_DIR$/107-skywalking/skywalking-gateway/skywalking-gateway.iml" />

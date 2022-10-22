@@ -122,6 +122,11 @@
     <file url="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-consumer-mysql-8403/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-provider-mysql-8402/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-sentinel-service-8401/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-account-service-8502/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-account-service-8502/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-order-service-8501/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-order-service-8501/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/109-springcloud-alibaba-seate/seata-storage-service-8500/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
