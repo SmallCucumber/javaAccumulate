@@ -3,6 +3,7 @@ package com.zmm.service;
 import com.zmm.entity.Account;
 import com.zmm.mapper.AccountMapper;
 import io.seata.core.context.RootContext;
+import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +17,7 @@ public class AccountServiceImpl implements AccountService{
     @Resource
     AccountMapper accountMapper;
 
+    @GlobalTransactional(rollbackFor = Exception.class)
     @Override
     public int decrease(Long userId, BigDecimal money) {
         log.info("Seata全局事务id=================>{}", RootContext.getXID());

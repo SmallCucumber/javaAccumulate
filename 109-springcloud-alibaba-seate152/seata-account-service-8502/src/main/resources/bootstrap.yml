@@ -18,13 +18,13 @@ spring:
       discovery:
         # 注册组 要与 seata 相同
         group: SEATA_GROUP
-        server-addr: 127.0.0.1:8848
-        namespace: seata152
+        server-addr: 192.168.29.16:8848
+        namespace: seata
       config:
         # 注册组 要与 seata 相同
         group: SEATA_GROUP
-        server-addr: 127.0.0.1:8848
-        namespace: seata152
+        server-addr: 192.168.29.16:8848
+        namespace: seata
         file-extension: yml
         # 共享配置
         #shared-configs:
@@ -33,44 +33,40 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     name: defaultDataSource
-    url: jdbc:mysql://127.0.0.1:3306/152_db_account?serverTimezone=UTC
+    url: jdbc:mysql://192.168.29.16:3306/db_seata_account?serverTimezone=UTC
     username: root
     password: root123
     #dynamic:
     #  seata: true    # 开启seata代理，开启后默认每个数据源都代理，如果某个不需要代理可单独关闭
 
+
 seata:
   enabled: true
   application-id: ${spring.application.name}
-  tx-service-group: seata_account_service_group
+  tx-service-group: account_tx_group
   service:
-    #vgroup-mapping:
-    vgroupMapping:
-      seata_account_service_group: default
+    vgroup-mapping:
+      account_tx_group: default
     grouplist:
-      default: 127.0.0.1:8091
+      default: 192.168.29.16:8091
   config:
     type: nacos
     nacos:
-      #server-addr: 127.0.0.1:8848
-      serverAddr: 127.0.0.1:8848
+      server-addr: 192.168.29.16:8848
       group: SEATA_GROUP
-      namespace: seata152
+      namespace: seata
       username: nacos
       password: nacos
-      #data-id: seataServer.properties
-      dataId: seata-server.yml
+      data-id: seataServer.properties
   registry:
     type: nacos
     nacos:
       application: seata-server
-      #server-addr: 127.0.0.1:8848
-      serverAddr: 127.0.0.1:8848
+      server-addr: 192.168.29.16:8848
       group: SEATA_GROUP
-      namespace: seata152
+      namespace: seata
       username: nacos
       password: nacos
-      dataId: seata-server.yml
 
 ###################################### MyBatis 配置 ######################################
 mybatis:

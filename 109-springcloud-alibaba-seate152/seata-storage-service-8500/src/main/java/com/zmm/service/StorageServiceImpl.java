@@ -3,6 +3,7 @@ package com.zmm.service;
 import com.zmm.entity.Storage;
 import com.zmm.mapper.StorageMapper;
 import io.seata.core.context.RootContext;
+import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +16,7 @@ public class StorageServiceImpl implements StorageService{
     @Resource
     StorageMapper storageMapper;
 
+    @GlobalTransactional(rollbackFor = Exception.class)
     @Override
     public int decrease(Long productId, Integer count) {
         log.info("Seata全局事务id=================>{}", RootContext.getXID());
