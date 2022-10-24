@@ -40,6 +40,9 @@
         <option value="$PROJECT_DIR$/107-skywalking/pom.xml" />
         <option value="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/pom.xml" />
         <option value="$PROJECT_DIR$/109-springcloud-alibaba-seate/pom.xml" />
+        <option value="$PROJECT_DIR$/110-springcloud-alibaba-seate142/pom.xml" />
+        <option value="$PROJECT_DIR$/111-springcloud-alibaba-seate130/pom.xml" />
+        <option value="$PROJECT_DIR$/109-springcloud-alibaba-seate152/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -2,7 +2,7 @@ server:
   port: 8401 #端口
 spring:
   application:
-    name: sentinel-service #服务名
+    name: sentinel-com.zmm.service #服务名
   cloud:
     nacos:
       discovery:

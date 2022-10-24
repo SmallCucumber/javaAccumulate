@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zmm.springboot.mapper.UserMapper" >
+<!DOCTYPE com.zmm.mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-com.zmm.mapper.dtd" >
+<com.zmm.mapper namespace="com.zmm.springboot.com.zmm.mapper.UserMapper" >
     <resultMap id="BaseResultMap" type="com.zmm.springboot.model.User" >
         <id column="id" property="id" jdbcType="BIGINT" />
         <result column="userName" property="userName" jdbcType="VARCHAR" />
@@ -52,4 +52,4 @@
        		 id =#{id}
     </delete>
 
-</mapper>
+</com.zmm.mapper>

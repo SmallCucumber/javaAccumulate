@@ -13,7 +13,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan(basePackages = "com.zmm.mapper")
+@MapperScan(basePackages = "com.zmm.com.zmm.mapper")
 public class SkywalkingOrderApplication {
 
     public static void main(String[] args) {

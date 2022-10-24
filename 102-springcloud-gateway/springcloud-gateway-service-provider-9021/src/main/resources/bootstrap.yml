@@ -7,7 +7,7 @@ custom:
 
 spring:
   application:
-    name: gateway-service-provider
+    name: gateway-com.zmm.service-provider
 
 
 eureka:

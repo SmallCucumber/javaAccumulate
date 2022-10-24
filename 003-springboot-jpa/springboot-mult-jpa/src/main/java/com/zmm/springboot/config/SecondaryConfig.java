@@ -36,7 +36,7 @@ public class SecondaryConfig {
         return builder
                 .dataSource(secondaryDataSource)
                 .properties(vendorProperties)
-                .packages("com.zmm.springboot.entity")
+                .packages("com.zmm.springboot.com.zmm.entity")
                 .persistenceUnit("secondaryPersistenceUnit")
                 .build();
     }

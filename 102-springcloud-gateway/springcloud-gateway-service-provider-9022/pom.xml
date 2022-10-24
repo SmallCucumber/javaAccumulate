@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-gateway-service-provider-9022</artifactId>
+    <artifactId>springcloud-gateway-com.zmm.service-provider-9022</artifactId>
 
     <dependencies>
         <dependency>

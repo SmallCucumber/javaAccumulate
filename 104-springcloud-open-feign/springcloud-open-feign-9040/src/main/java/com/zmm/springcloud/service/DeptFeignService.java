@@ -13,7 +13,7 @@ import java.util.List;
  *
  */
 @Component
-@FeignClient(name = "gateway-service-provider")
+@FeignClient(name = "gateway-com.zmm.service-provider")
 public interface DeptFeignService {
     @RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
     public Dept get(@PathVariable("id") int id);

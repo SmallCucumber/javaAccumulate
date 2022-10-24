@@ -1,0 +1,82 @@
+# Tomcat
+server:
+  port: 8500
+
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: seata-storage-service
+  profiles:
+    # 环境配置
+    active: dev
+  main:
+    allow-circular-references: true
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        group: SEATA_GROUP
+        namespace: seata130
+      config:
+        server-addr: 127.0.0.1:8848
+        group: SEATA_GROUP
+        namespace: seata130
+        file-extension: yml
+        # 共享配置
+        #shared-configs:
+        #  - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+    alibaba:
+      seata:
+        #自定义服务群组，该值必须与 Nacos 配置中的 service.vgroupMapping.{my-service-group}=default 中的 {my-service-group}相同
+        tx-service-group: my_test_tx_group
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    url: jdbc:mysql://127.0.0.1:3306/130_db_storage?serverTimezone=UTC
+    username: root
+    password: root123
+
+seata:
+#  enabled: true
+#  enable-auto-data-source-proxy: false
+#  application-id: ${spring.application.name}
+#  tx-service-group: my_test_tx_group
+#  service:
+#    vgroup-mapping:
+#      my_test_tx_group: default
+  config:
+    type: nacos
+    nacos:
+      server-addr: 127.0.0.1:8848
+      group: SEATA_GROUP
+      namespace: seata130
+      username: nacos
+      password: nacos
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 127.0.0.1:8848
+      group: SEATA_GROUP
+      namespace: seata130
+      username: nacos
+      password: nacos
+
+###################################### MyBatis 配置 ######################################
+mybatis:
+  # 指定 mapper.xml 的位置
+  mapper-locations: classpath:mapper/*.xml
+  #扫描实体类的位置,在此处指明扫描实体类的包，在 mapper.xml 中就可以不写实体类的全路径名
+  type-aliases-package: com.zmm.entity
+  configuration:
+    #默认开启驼峰命名法，可以不用设置该属性
+    map-underscore-to-camel-case: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # * 在yaml 文件属于关键字，所以需要加引号

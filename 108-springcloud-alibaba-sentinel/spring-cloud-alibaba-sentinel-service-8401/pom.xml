@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-cloud-alibaba-sentinel-service-8401</artifactId>
+    <artifactId>spring-cloud-alibaba-sentinel-com.zmm.service-8401</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

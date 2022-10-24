@@ -25,7 +25,7 @@ eureka:
     lease-expiration-duration-in-seconds: 9
 
 info:
-  app.name: micro-service-cloud-provider-dept-hystrix
+  app.name: micro-com.zmm.service-cloud-provider-dept-hystrix
   company.name: c.biancheng.net
   build.aetifactId: @project.artifactId@
   build.version: @project.version@

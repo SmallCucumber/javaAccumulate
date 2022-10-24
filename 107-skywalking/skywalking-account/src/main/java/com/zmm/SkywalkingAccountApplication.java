@@ -15,7 +15,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-@MapperScan(basePackages = "com.zmm.mapper")
+@MapperScan(basePackages = "com.zmm.com.zmm.mapper")
 public class SkywalkingAccountApplication {
 
     public static void main(String[] args) {

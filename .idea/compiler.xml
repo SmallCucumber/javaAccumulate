@@ -17,14 +17,17 @@
         <module name="springcloud-alibaba-consumer-nacos-9061" />
         <module name="springboot-mybatis-multi-annotation" />
         <module name="gateway-nacos-refresh-9063" />
+        <module name="seata-storage-service-8500-130" />
         <module name="springboot-multi-mongodb" />
         <module name="springboot-mult-jpa" />
         <module name="005-springboot-fastDFS" />
         <module name="skywalking-gateway" />
+        <module name="seata-order-service-8501-130" />
         <module name="springcloud-alibaba-nacos-config-client-9062" />
         <module name="springboot-rabbitmq" />
         <module name="springcloud-standalone-gateway-9020" />
         <module name="springcloud-hystrix-provider-circuitbreaker-9054" />
+        <module name="seata-account-service-8502-130" />
         <module name="springcloud-hystrix-consumer-9051" />
         <module name="002-springboot-config" />
         <module name="springcloud-open-feign-9040" />
@@ -33,6 +36,7 @@
         <module name="springboot-mybatis-plus" />
         <module name="013-springboot-kafka" />
         <module name="022-springboot-transactional-lose" />
+        <module name="seata-storage-service-8500-142" />
         <module name="004-springboot-thymeleaf" />
         <module name="001-springboot-start" />
         <module name="024-springboot-async" />
@@ -42,6 +46,7 @@
         <module name="springboot-mongodb" />
         <module name="elasticsearch-rest-high-level-client" />
         <module name="springcloud-gateway-service-provider-9021" />
+        <module name="seata-account-service-8502-142" />
         <module name="springcloud-gateway-service-provider-9022" />
         <module name="springcloud-git-config-server9013" />
         <module name="springcloud-git-config-server9012" />
@@ -76,6 +81,7 @@
         <module name="eureka-server-standalone-9000" />
         <module name="021-springboot-exception" />
         <module name="007-springboot-scheduler" />
+        <module name="seata-order-service-8501-142" />
         <module name="elasticsearch-simple-high-level-client" />
         <module name="skywalking-order" />
       </profile>
@@ -115,7 +121,9 @@
       <module name="106-springcloud-alibaba-nacos" target="1.8" />
       <module name="107-skywalking" target="8" />
       <module name="108-springcloud-alibaba-sentinel" target="1.8" />
-      <module name="109-springcloud-alibaba-seate" target="1.8" />
+      <module name="109-springcloud-alibaba-seate152" target="1.8" />
+      <module name="110-springcloud-alibaba-seate142" target="1.8" />
+      <module name="111-springcloud-alibaba-seate130" target="1.8" />
       <module name="elasticsearch-rest-high-level-client" target="11" />
       <module name="elasticsearch-simple-high-level-client" target="11" />
       <module name="eureka-client-9004" target="1.8" />
@@ -128,8 +136,14 @@
       <module name="gateway-sentinel" target="8" />
       <module name="nacos-config-sentinel-rule" target="8" />
       <module name="seata-account-service-8502" target="8" />
+      <module name="seata-account-service-8502-130" target="8" />
+      <module name="seata-account-service-8502-142" target="8" />
       <module name="seata-order-service-8501" target="8" />
+      <module name="seata-order-service-8501-130" target="8" />
+      <module name="seata-order-service-8501-142" target="8" />
       <module name="seata-storage-service-8500" target="8" />
+      <module name="seata-storage-service-8500-130" target="8" />
+      <module name="seata-storage-service-8500-142" target="8" />
       <module name="seata-storage-service-8503" target="8" />
       <module name="skywalking-account" target="8" />
       <module name="skywalking-gateway" target="8" />
@@ -214,8 +228,14 @@
       <module name="gateway-sentinel" options="-parameters" />
       <module name="nacos-config-sentinel-rule" options="-parameters" />
       <module name="seata-account-service-8502" options="-parameters" />
+      <module name="seata-account-service-8502-130" options="-parameters" />
+      <module name="seata-account-service-8502-142" options="-parameters" />
       <module name="seata-order-service-8501" options="-parameters" />
+      <module name="seata-order-service-8501-130" options="-parameters" />
+      <module name="seata-order-service-8501-142" options="-parameters" />
       <module name="seata-storage-service-8500" options="-parameters" />
+      <module name="seata-storage-service-8500-130" options="-parameters" />
+      <module name="seata-storage-service-8500-142" options="-parameters" />
       <module name="seata-storage-service-8503" options="-parameters" />
       <module name="skywalking-account" options="-parameters" />
       <module name="skywalking-gateway" options="-parameters" />

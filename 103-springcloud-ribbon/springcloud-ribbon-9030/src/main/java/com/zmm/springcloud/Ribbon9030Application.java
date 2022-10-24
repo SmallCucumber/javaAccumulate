@@ -14,7 +14,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
  * configuration 为定制的负载均衡策略的配置类，
  * 且官方文档中明确提出，该配置类不能在 ComponentScan 注解（SpringBootApplication 注解中包含了该注解）下的包或其子包中，即自定义负载均衡配置类不能在 net.biancheng.c 包及其子包下
  */
-@RibbonClient(name = "gateway-service-provider", configuration = ConfigBean.class)
+@RibbonClient(name = "gateway-com.zmm.service-provider", configuration = ConfigBean.class)
 public class Ribbon9030Application {
 
     public static void main(String[] args) {

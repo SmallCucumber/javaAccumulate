@@ -21,7 +21,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo())
                 .select()
                 // 自行修改为自己的包路径
-                .apis(RequestHandlerSelectors.basePackage("com.zmm.springboot.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.zmm.springboot.com.zmm.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

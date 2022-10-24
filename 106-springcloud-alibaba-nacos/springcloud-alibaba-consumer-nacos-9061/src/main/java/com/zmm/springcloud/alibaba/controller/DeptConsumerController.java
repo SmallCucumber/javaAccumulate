@@ -26,7 +26,7 @@ public class DeptConsumerController {
     /**
      * 服务提供者的服务名
      */
-    @Value("${service-url.nacos-user-service}")
+    @Value("${com.zmm.service-url.nacos-user-com.zmm.service}")
     private String serverURL;
 
     @GetMapping("/consumer/dept/nacos/{id}")

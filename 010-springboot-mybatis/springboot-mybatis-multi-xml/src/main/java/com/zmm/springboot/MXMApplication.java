@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.zmm.springboot.mapper")
+@MapperScan("com.zmm.springboot.com.zmm.mapper")
 public class MXMApplication {
 
 	public static void main(String[] args) {

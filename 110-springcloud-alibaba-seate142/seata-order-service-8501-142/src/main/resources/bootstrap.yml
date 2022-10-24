@@ -1,0 +1,105 @@
+# Tomcat
+server:
+  port: 8501
+
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: seata-order-com.zmm.service
+  profiles:
+    # 环境配置
+    active: dev
+  main:
+    allow-circular-references: true
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        # 注册组 要与 seata 相同
+        group: SEATA_GROUP
+        server-addr: 192.168.29.16:8848
+        namespace: seata
+      config:
+        # 注册组 要与 seata 相同
+        group: SEATA_GROUP
+        server-addr: 192.168.29.16:8848
+        namespace: seata
+        file-extension: yml
+        # 共享配置
+        #shared-configs:
+        #  - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+      alibaba:
+        seata:
+          #自定义服务群组，该值必须与 Nacos 配置中的 com.zmm.service.vgroupMapping.{my-com.zmm.service-group}=default 中的 {my-com.zmm.service-group}相同
+          tx-service-group: com.zmm.service-order-group
+#    sentinel:
+#      # 取消控制台懒加载
+#      eager: true
+#      transport:
+#        # 控制台地址
+#        dashboard: 192.168.29.16:8080
+#        port: 8719
+#      # nacos配置持久化
+#      datasource:
+#        ds:
+#          nacos:
+#            server-addr: 192.168.29.16:8848
+#            namespace: test
+#            #dataId: ${spring.application.name}-rules
+#            dataId: gateway-sentinel-server
+#            groupId: DEFAULT_GROUP
+#            data-type: json
+#            rule-type: flow
+
+#  gateway-sentinel-server
+#  [
+#    {
+#      "resource": "spring-cloud-alibaba-consumer-mysql",
+#      "count": 1,
+#      "grade": 1,
+#      "limitApp": "default",
+#      "strategy": 0,
+#      "controlBehavior": 0
+#    },
+#    {
+#      "resource": "spring-cloud-alibaba-provider-mysql",
+#      "count": 1,
+#      "grade": 1,
+#      "limitApp": "default",
+#      "strategy": 0,
+#      "controlBehavior": 0
+#    }
+#  ]
+
+#  gateway-sentinel.yml
+#spring:
+#  cloud:
+#    gateway:
+#      discovery:
+#        locator:
+#          lowerCaseServiceId: true
+#          enabled: true
+#      routes:
+#        # spring-cloud-alibaba-consumer-mysql
+#        - id: spring-cloud-alibaba-consumer-mysql
+#          uri: lb://spring-cloud-alibaba-consumer-mysql
+#          predicates:
+#            - Path=/consumer/**
+#          filters:
+#            - StripPrefix=1
+#        # spring-cloud-alibaba-provider-mysql
+#        - id: spring-cloud-alibaba-provider-mysql
+#          uri: lb://spring-cloud-alibaba-provider-mysql
+#          predicates:
+#            - Path=/provider/**
+#          filters:
+#            - StripPrefix=1
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   # * 在yaml 文件属于关键字，所以需要加引号

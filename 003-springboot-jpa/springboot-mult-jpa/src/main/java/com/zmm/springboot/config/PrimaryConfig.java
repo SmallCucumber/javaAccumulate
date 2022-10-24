@@ -38,7 +38,7 @@ public class PrimaryConfig {
         return builder
                 .dataSource(primaryDataSource)
                 .properties(vendorProperties)
-                .packages("com.zmm.springboot.entity") //设置实体类所在位置
+                .packages("com.zmm.springboot.com.zmm.entity") //设置实体类所在位置
                 .persistenceUnit("primaryPersistenceUnit")
                 .build();
     }
