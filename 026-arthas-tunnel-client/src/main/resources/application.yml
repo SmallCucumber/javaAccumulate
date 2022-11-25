@@ -1,0 +1,13 @@
+server:
+  port: 8082
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+#现在本地启动arthas-tunnel-server-3.6.7-fatjar.jar,在启动这个服务指定,tunnel-server(包含两个端口7777,8080)部署的服务器
+#启动后http://127.0.0.1:8080/填入配置的agent-id
+arthas:
+  agent-id: my-arthas-01  #可以自定义，后面访问的时候需要
+  tunnel-server: ws://127.0.0.1:7777/ws #指定tunnel-server部署的服务器
