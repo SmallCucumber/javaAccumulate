@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/023-springboot-futureTask/023-springboot-futureTask.iml" filepath="$PROJECT_DIR$/023-springboot-futureTask/023-springboot-futureTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/024-springboot-async/024-springboot-async.iml" filepath="$PROJECT_DIR$/024-springboot-async/024-springboot-async.iml" />
       <module fileurl="file://$PROJECT_DIR$/025-springboot-completableFuture/025-springboot-completableFuture.iml" filepath="$PROJECT_DIR$/025-springboot-completableFuture/025-springboot-completableFuture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/026-arthas-tunnel-client/026-arthas-tunnel-client.iml" filepath="$PROJECT_DIR$/026-arthas-tunnel-client/026-arthas-tunnel-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/100-springcloud-eureka/100-springcloud-eureka.iml" filepath="$PROJECT_DIR$/100-springcloud-eureka/100-springcloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/101-springcloud-config/101-springcloud-config.iml" filepath="$PROJECT_DIR$/101-springcloud-config/101-springcloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/102-springcloud-gateway/102-springcloud-gateway.iml" filepath="$PROJECT_DIR$/102-springcloud-gateway/102-springcloud-gateway.iml" />
@@ -39,6 +40,7 @@
       <module fileurl="file://$PROJECT_DIR$/109-springcloud-alibaba-seate152/109-springcloud-alibaba-seate152.iml" filepath="$PROJECT_DIR$/109-springcloud-alibaba-seate152/109-springcloud-alibaba-seate152.iml" />
       <module fileurl="file://$PROJECT_DIR$/110-springcloud-alibaba-seate142/110-springcloud-alibaba-seate142.iml" filepath="$PROJECT_DIR$/110-springcloud-alibaba-seate142/110-springcloud-alibaba-seate142.iml" />
       <module fileurl="file://$PROJECT_DIR$/111-springcloud-alibaba-seate130/111-springcloud-alibaba-seate130.iml" filepath="$PROJECT_DIR$/111-springcloud-alibaba-seate130/111-springcloud-alibaba-seate130.iml" />
+      <module fileurl="file://$PROJECT_DIR$/112-springcloud-oauth2/112-springcloud-oauth2.iml" filepath="$PROJECT_DIR$/112-springcloud-oauth2/112-springcloud-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-rest-high-level-client/elasticsearch-rest-high-level-client.iml" filepath="$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-rest-high-level-client/elasticsearch-rest-high-level-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-simple-high-level-client/elasticsearch-simple-high-level-client.iml" filepath="$PROJECT_DIR$/015-springboot-elasticsearch/elasticsearch-simple-high-level-client/elasticsearch-simple-high-level-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9004/eureka-client-9004.iml" filepath="$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9004/eureka-client-9004.iml" />
@@ -51,6 +53,7 @@
       <module fileurl="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/gateway-sentinel/gateway-sentinel.iml" filepath="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/gateway-sentinel/gateway-sentinel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javaAccumulate.iml" filepath="$PROJECT_DIR$/.idea/javaAccumulate.iml" />
       <module fileurl="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/nacos-config-sentinel-rule/nacos-config-sentinel-rule.iml" filepath="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/nacos-config-sentinel-rule/nacos-config-sentinel-rule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/112-springcloud-oauth2/oauth2-authcode/oauth2-authcode.iml" filepath="$PROJECT_DIR$/112-springcloud-oauth2/oauth2-authcode/oauth2-authcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/109-springcloud-alibaba-seate152/seata-account-service-8502/seata-account-service-8502.iml" filepath="$PROJECT_DIR$/109-springcloud-alibaba-seate152/seata-account-service-8502/seata-account-service-8502.iml" />
       <module fileurl="file://$PROJECT_DIR$/111-springcloud-alibaba-seate130/seata-account-service-8502-130/seata-account-service-8502-130.iml" filepath="$PROJECT_DIR$/111-springcloud-alibaba-seate130/seata-account-service-8502-130/seata-account-service-8502-130.iml" />
       <module fileurl="file://$PROJECT_DIR$/110-springcloud-alibaba-seate142/seata-account-service-8502-142/seata-account-service-8502-142.iml" filepath="$PROJECT_DIR$/110-springcloud-alibaba-seate142/seata-account-service-8502-142/seata-account-service-8502-142.iml" />
