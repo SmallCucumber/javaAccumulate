@@ -32,6 +32,7 @@
     <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-multi-xml/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-xml/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/010-springboot-mybatis/springboot-mybatis-xml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-springboot-mybatis-plus/springboot-dynamic-datasource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/011-springboot-mybatis-plus/springboot-mybatis-plus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/011-springboot-mybatis-plus/springboot-mybatis-plus/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/012-springboot-rabbitmq/springboot-rabbitmq-1/src/main/java" charset="UTF-8" />
@@ -66,6 +67,8 @@
     <file url="file://$PROJECT_DIR$/025-springboot-completableFuture/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/026-arthas-tunnel-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/026-arthas-tunnel-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/027-springboot-redis-stream/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/027-springboot-redis-stream2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9004/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9005/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/100-springcloud-eureka/eureka-client-9005/src/main/resources" charset="UTF-8" />
@@ -129,6 +132,7 @@
     <file url="file://$PROJECT_DIR$/109-springcloud-alibaba-seate152/seata-order-service-8501/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/109-springcloud-alibaba-seate152/seata-order-service-8501/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/109-springcloud-alibaba-seate152/seata-storage-service-8500/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/109-springcloud-alibaba-seate152/seata-storage-service-8500/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/110-springcloud-alibaba-seate142/seata-account-service-8502-142/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/110-springcloud-alibaba-seate142/seata-account-service-8502-142/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/110-springcloud-alibaba-seate142/seata-order-service-8501-142/src/main/java" charset="UTF-8" />

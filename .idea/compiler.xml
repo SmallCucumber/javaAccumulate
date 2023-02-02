@@ -11,6 +11,7 @@
         <module name="seata-account-service-8502" />
         <module name="006-springboot-mail" />
         <module name="spring-cloud-alibaba-sentinel-service-8401" />
+        <module name="springboot-dynamic-datasource" />
         <module name="springcloud-hystrix-provider-global-fallback" />
         <module name="springcloud-ribbon-9030" />
         <module name="014-springboot-rocketmq" />
@@ -37,6 +38,7 @@
         <module name="springboot-mybatis-plus" />
         <module name="013-springboot-kafka" />
         <module name="022-springboot-transactional-lose" />
+        <module name="027-springboot-redis-stream" />
         <module name="seata-storage-service-8500-142" />
         <module name="026-arthas-tunnel-client" />
         <module name="004-springboot-thymeleaf" />
@@ -52,6 +54,7 @@
         <module name="springcloud-gateway-service-provider-9022" />
         <module name="springcloud-git-config-server9013" />
         <module name="springcloud-git-config-server9012" />
+        <module name="027-springboot-redis-stream2" />
         <module name="023-springboot-futureTask" />
         <module name="008-springboot-redis" />
         <module name="skywalking-account" />
@@ -115,6 +118,8 @@
       <module name="024-springboot-async" target="8" />
       <module name="025-springboot-completableFuture" target="8" />
       <module name="026-arthas-tunnel-client" target="8" />
+      <module name="027-springboot-redis-stream" target="8" />
+      <module name="027-springboot-redis-stream2" target="8" />
       <module name="100-springcloud-eureka" target="1.8" />
       <module name="101-springcloud-config" target="1.8" />
       <module name="102-springcloud-gateway" target="1.8" />
@@ -124,7 +129,7 @@
       <module name="106-springcloud-alibaba-nacos" target="1.8" />
       <module name="107-skywalking" target="8" />
       <module name="108-springcloud-alibaba-sentinel" target="1.8" />
-      <module name="109-springcloud-alibaba-seate152" target="8" />
+      <module name="109-springcloud-alibaba-seate152" target="1.8" />
       <module name="110-springcloud-alibaba-seate142" target="1.8" />
       <module name="111-springcloud-alibaba-seate130" target="1.8" />
       <module name="112-springcloud-oauth2" target="8" />
@@ -156,6 +161,7 @@
       <module name="spring-cloud-alibaba-consumer-mysql-8403" target="8" />
       <module name="spring-cloud-alibaba-provider-mysql-8402" target="8" />
       <module name="spring-cloud-alibaba-sentinel-service-8401" target="8" />
+      <module name="springboot-dynamic-datasource" target="8" />
       <module name="springboot-ehcache" target="11" />
       <module name="springboot-elasticsearch" target="11" />
       <module name="springboot-jpa" target="11" />
@@ -220,6 +226,8 @@
       <module name="024-springboot-async" options="-parameters" />
       <module name="025-springboot-completableFuture" options="-parameters" />
       <module name="026-arthas-tunnel-client" options="-parameters" />
+      <module name="027-springboot-redis-stream" options="-parameters" />
+      <module name="027-springboot-redis-stream2" options="-parameters" />
       <module name="102-springcloud-gateway" options="-parameters" />
       <module name="108-springcloud-alibaba-sentinel" options="-parameters" />
       <module name="elasticsearch-rest-high-level-client" options="-parameters" />
@@ -250,6 +258,7 @@
       <module name="spring-cloud-alibaba-consumer-mysql-8403" options="-parameters" />
       <module name="spring-cloud-alibaba-provider-mysql-8402" options="-parameters" />
       <module name="spring-cloud-alibaba-sentinel-service-8401" options="-parameters" />
+      <module name="springboot-dynamic-datasource" options="-parameters" />
       <module name="springboot-ehcache" options="-parameters" />
       <module name="springboot-elasticsearch" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />

@@ -45,6 +45,8 @@
         <option value="$PROJECT_DIR$/109-springcloud-alibaba-seate152/pom.xml" />
         <option value="$PROJECT_DIR$/026-arthas-tunnel-client/pom.xml" />
         <option value="$PROJECT_DIR$/112-springcloud-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/027-springboot-redis-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/027-springboot-redis-stream2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

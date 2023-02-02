@@ -28,6 +28,8 @@
       <module fileurl="file://$PROJECT_DIR$/024-springboot-async/024-springboot-async.iml" filepath="$PROJECT_DIR$/024-springboot-async/024-springboot-async.iml" />
       <module fileurl="file://$PROJECT_DIR$/025-springboot-completableFuture/025-springboot-completableFuture.iml" filepath="$PROJECT_DIR$/025-springboot-completableFuture/025-springboot-completableFuture.iml" />
       <module fileurl="file://$PROJECT_DIR$/026-arthas-tunnel-client/026-arthas-tunnel-client.iml" filepath="$PROJECT_DIR$/026-arthas-tunnel-client/026-arthas-tunnel-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/027-springboot-redis-stream/027-springboot-redis-stream.iml" filepath="$PROJECT_DIR$/027-springboot-redis-stream/027-springboot-redis-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/027-springboot-redis-stream2/027-springboot-redis-stream2.iml" filepath="$PROJECT_DIR$/027-springboot-redis-stream2/027-springboot-redis-stream2.iml" />
       <module fileurl="file://$PROJECT_DIR$/100-springcloud-eureka/100-springcloud-eureka.iml" filepath="$PROJECT_DIR$/100-springcloud-eureka/100-springcloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/101-springcloud-config/101-springcloud-config.iml" filepath="$PROJECT_DIR$/101-springcloud-config/101-springcloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/102-springcloud-gateway/102-springcloud-gateway.iml" filepath="$PROJECT_DIR$/102-springcloud-gateway/102-springcloud-gateway.iml" />
@@ -70,6 +72,7 @@
       <module fileurl="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-consumer-mysql-8403/spring-cloud-alibaba-consumer-mysql-8403.iml" filepath="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-consumer-mysql-8403/spring-cloud-alibaba-consumer-mysql-8403.iml" />
       <module fileurl="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-provider-mysql-8402/spring-cloud-alibaba-provider-mysql-8402.iml" filepath="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-provider-mysql-8402/spring-cloud-alibaba-provider-mysql-8402.iml" />
       <module fileurl="file://$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-sentinel-service-8401/spring-cloud-alibaba-sentinel-service-8401.iml" filepath="$PROJECT_DIR$/108-springcloud-alibaba-sentinel/spring-cloud-alibaba-sentinel-service-8401/spring-cloud-alibaba-sentinel-service-8401.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-springboot-mybatis-plus/springboot-dynamic-datasource/springboot-dynamic-datasource.iml" filepath="$PROJECT_DIR$/011-springboot-mybatis-plus/springboot-dynamic-datasource/springboot-dynamic-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/020-springboot-ehcache/springboot-ehcache/springboot-ehcache.iml" filepath="$PROJECT_DIR$/020-springboot-ehcache/springboot-ehcache/springboot-ehcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/015-springboot-elasticsearch/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/015-springboot-elasticsearch/springboot-elasticsearch/springboot-elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/003-springboot-jpa/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/003-springboot-jpa/springboot-jpa/springboot-jpa.iml" />
